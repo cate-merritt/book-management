@@ -2,15 +2,18 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import AddBook from './components/AddBook'
 import EditBook from './components/EditBook'
+import Navbar from './components/Navbar'
 import Header from './components/Header'
 import ListBook from './components/ListBook'
 import BookProvider from './context/BookContext'
+
 
 function App() {
 
   return (
     <div className="container">
       <BookProvider>
+        <Navbar />
         <Header />
         <Routes>
           <Route path='/' element={<ListBook />} />

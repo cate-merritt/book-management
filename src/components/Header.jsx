@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <header>
-      <h1>Book Management</h1>
+      <h1>Inventory Management</h1>
       <nav>
         {navigation.map(nav => (
           <NavLink
