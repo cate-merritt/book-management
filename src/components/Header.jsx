@@ -3,13 +3,13 @@ import { NavLink } from "react-router-dom"
 const Header = () => {
 
   const navigation = [
-    { path: '/', name: 'List Book' },
-    { path: '/add', name: 'Add Book' },
+    { path: '/', name: 'View List' },
+    { path: '/add', name: 'Add Item' },
   ]
 
   return (
     <header>
-      <h1>Inventory Management</h1>
+      <h1>Your Favorite Books</h1>
       <nav>
         {navigation.map(nav => (
           <NavLink

@@ -15,7 +15,7 @@ const ListBook = () => {
       {books.length ? books.map(book => (
         <Book book={book} key={book.id} handleRemoveBook={handleRemoveBook} />
       )) : (
-        <p className="noData">No books avaliable, Please add some book!</p>
+        <p className="noData">Add books to view them here!</p>
       )}
     </div>
   )

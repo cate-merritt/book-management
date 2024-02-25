@@ -9,7 +9,8 @@ import ListBook from './components/ListBook';
 import BookProvider from './context/BookContext';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Products from './pages/Products';
+import Photography from './pages/Photography';
+import Snowfall from 'react-snowfall';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className="container">
       <BookProvider>
+      <Snowfall />
         <Navbar />
         <Header />
         <Routes>
@@ -25,7 +27,7 @@ function App() {
           <Route path='/edit/:id' element={<EditBook />} />
           <Route path='/about' element={<About />} /> 
             <Route path='/contact' element={<Contact />} /> 
-            <Route path='/products' element={<Products />} /> 
+            <Route path='/photography' element={<Photography />} /> 
         </Routes>
         <Footer />
       </BookProvider>
@@ -34,4 +36,3 @@ function App() {
 }
 
 export default App
-

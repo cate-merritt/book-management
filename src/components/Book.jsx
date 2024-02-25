@@ -8,7 +8,7 @@ const Book = ({ book, handleRemoveBook }) => {
     <div className="book">
       <h2>{name}</h2>
       <div className="bookDetail">
-        <p>Author: {author}</p>
+        <p>Category: {author}</p>
         <p>Price: {price}</p>
         <p>Date: {new Date(date).toDateString()}</p>
       </div>

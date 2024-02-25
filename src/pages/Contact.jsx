@@ -4,11 +4,11 @@ import { Form, Button } from 'react-bootstrap';
 function Contact() {
   return (
     <div>
-      <h2>Contact Us</h2>
-      <p>If you have any questions, feedback, or inquiries, feel free to get in touch with us!</p>
+      <h2>Contact Cate</h2>
+      <p>If you have any questions, feedback, or inquiries, feel free to get in touch with me!</p>
       
       <h3>Contact Information</h3>
-      <p>Email: example@example.com</p>
+      <p>Email: cate@loonsrule.com</p>
       <p>Phone: +1234567890</p>
       <p>Address: 123 Main Street, City, Country</p>
 
@@ -16,7 +16,7 @@ function Contact() {
       <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
       <p>Saturday - Sunday: Closed</p>
 
-      <h3>Send us a Message</h3>
+      <h3>Send me a Message</h3>
       <Form>
         <Form.Group controlId="formBasicName">
           <Form.Label>Name</Form.Label>
