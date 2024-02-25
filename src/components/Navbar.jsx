@@ -8,8 +8,7 @@ const NavBar = () => {
     <Navbar bg="dark" variant="dark" expand="lg">
       <LinkContainer to="/">
         <Navbar.Brand>
-        
-          <i>𝔹𝕠𝕠𝕜 𝕎𝕠𝕣𝕞</i>
+          <i>𝐛𝐨𝐨𝐤 𝐰𝐨𝐫𝐦𝐬 𝐮𝐧𝐢𝐭𝐞𝐝</i>
           <span style={{ marginLeft: '5px' }}> {/* Adding a small margin to separate the text from the image */}
             <img src="https://i.pinimg.com/originals/2e/e6/2e/2ee62eeaf77b6184289c6338f58779b4.jpg" alt="Tiny Image" height="30" /> {/* Adjust the height as needed */}
           </span>
